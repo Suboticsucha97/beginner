@@ -1,0 +1,174 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+i {
+    color: white;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Six Caps', sans-serif;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(5, 5, 52)
+}
+
+.headone {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+    gap: 13px;
+}
+
+.headtwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.headingone {
+    color: gold;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 13px;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+.headingtwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 422px;
+    gap: 13px
+}
+
+input {
+    padding: 16px 522px 10px 12px;
+    border-radius: 12px;
+
+
+
+}
+
+.main2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 30%;
+
+
+}
+
+.Orderone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: bold;
+    gap: 13px;
+
+
+
+
+
+
+}
+
+.Ordertwo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 13px;
+    height: 60%;
+}
+
+.Orderone>i {
+    cursor: pointer;
+}
+
+.Ordertwo>a {
+    color: black;
+
+}
+
+.Orderone>i {
+    color: black;
+}
+
+.objectstwo>p {
+    color: black;
+    font-size: 18px;
+
+
+}
+
+.objectstwo>i {
+    color: black;
+}
+
+.objectstwo {
+    display: none;
+    flex-direction: column;
+    margin-left: 18%;
+    position: fixed;
+    padding-top: 28px;
+    gap: 3px;
+
+    cursor: pointer;
+
+
+
+    /* justify-content: center;
+    align-items: center; */
+    /* padding-right: 133px; */
+    /* position: inherit; */
+}
+
+.objectstwo>p:hover {
+    background-color: rgb(181, 178, 178);
+}
+
+.objectsone {
+    display: none;
+    flex-direction: column;
+    margin-left: 28%;
+    position: fixed;
+    padding-top: 28px;
+    gap: 3px;
+
+
+}
+
+.objectsone>p:hover {
+    background-color: rgb(181, 178, 178);
+
+}
+
+.objectsone>p {
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
